@@ -1,0 +1,11 @@
+1. What happens when the number of hidden nodes increases?
+
+Accuracy increases.
+Network is too simple in small hidden layer with 1-2 nodes therefore those cannot usually learn complex patterns therefore lower accuracy.
+Medium hidden layer with 3-5 nodes: Network can capture most patterns therefore accuracy improves.
+Large hidden layer with 20-50 nodes: Network can learn very complex patterns therefore accuracy may reach 100%
+
+
+2. Pattern of accuracy
+
+Accuracy usually increases as hidden nodes increase. Too few nodes have lower accuracy and may even underfit. Too many nodes can lead to overfitting, have high training accuracy but poor generalization.
